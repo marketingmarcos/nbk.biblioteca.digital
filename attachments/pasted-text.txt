@@ -1,0 +1,162 @@
+ETAPA 1 — INÍCIO DA IMPLEMENTAÇÃO DA PLATAFORMA DE LEITURA DIGITAL
+
+Você está iniciando o desenvolvimento de uma plataforma de leitura digital gratuita, com identidade visual cósmica, destinada a leitores e autores independentes.
+
+O nome comercial ainda será definido. Utilize temporariamente o identificador interno PROJECT_ORBITA e mantenha o nome da marca configurável.
+
+OBJETIVO DESTA ETAPA
+
+Produzir a primeira versão estruturada e executável da aplicação, preparando a base técnica para integrar banco de dados, autenticação, armazenamento de livros, leitura de PDF e EPUB e submissões de autores.
+
+Não implemente tudo de maneira improvisada em um único arquivo. Desenvolva uma estrutura organizada, modular e preparada para manutenção.
+
+TECNOLOGIAS PREFERENCIAIS
+
+- Next.js com App Router.
+- React e TypeScript.
+- Tailwind CSS.
+- Supabase para PostgreSQL, autenticação e armazenamento.
+- PDF.js para leitura de PDF.
+- Uma biblioteca de leitura EPUB compatível com a arquitetura escolhida.
+
+Se alguma dessas tecnologias não for compatível com o ambiente disponível, explique o motivo e apresente uma alternativa antes de alterar a arquitetura.
+
+IDENTIDADE VISUAL
+
+Utilize:
+
+- Fundo principal #080B18.
+- Superfícies #171B31.
+- Roxo #8B5CF6.
+- Ciano #22D3EE.
+- Tipografia moderna.
+- Atmosfera de galáxia e exploração espacial.
+- Capas de livros em destaque.
+- Elementos cósmicos discretos.
+- Animações leves e acessíveis.
+
+A experiência deve parecer um produto editorial premium voltado ao público jovem. A leitura deve permanecer confortável em todas as telas.
+
+PÁGINAS DA PRIMEIRA VERSÃO
+
+Crie:
+
+1. Página inicial.
+2. Catálogo de livros.
+3. Página individual do livro.
+4. Tela de leitura.
+5. Página de autores.
+6. Cadastro e acesso de usuários.
+7. Área do leitor.
+8. Área de submissão de livros.
+9. Painel administrativo.
+10. Páginas institucionais para termos, privacidade e direitos autorais.
+
+Implemente também estados de carregamento, erro, lista vazia e conteúdo não encontrado.
+
+MODELO DE DADOS
+
+Prepare o esquema de banco de dados para:
+
+- profiles;
+- books;
+- book_files;
+- authors;
+- book_authors;
+- categories;
+- book_categories;
+- submissions;
+- rights_records;
+- reading_progress;
+- bookmarks;
+- audit_logs.
+
+Defina chaves estrangeiras, índices, restrições, estados editoriais e políticas de acesso.
+
+Utilize migrações versionadas. Não dependa apenas de tabelas criadas manualmente no painel.
+
+PUBLICAÇÃO EDITORIAL
+
+Os autores poderão enviar livros para avaliação, mas não poderão publicá-los diretamente.
+
+Implemente os estados:
+
+- draft;
+- submitted;
+- under_review;
+- changes_requested;
+- approved;
+- rejected;
+- published;
+- archived.
+
+Defina transições permitidas entre os estados. Somente um administrador ou editor autorizado poderá aprovar e publicar uma obra.
+
+Uma obra aprovada não deve ficar automaticamente pública sem a confirmação de publicação.
+
+ARQUIVOS
+
+Prepare upload de:
+
+- PDF;
+- EPUB;
+- imagens de capa.
+
+Valide extensão, MIME type, tamanho, integridade e permissões. Não confie apenas no nome do arquivo informado pelo usuário.
+
+Armazene os arquivos em buckets apropriados, com controle de acesso no servidor e políticas de segurança. Não coloque livros privados em buckets públicos.
+
+Permita download somente quando a configuração da obra autorizar.
+
+SEGURANÇA
+
+Implemente:
+
+- Autenticação real.
+- Autorização por função.
+- Proteção das rotas administrativas.
+- Políticas RLS para tabelas expostas.
+- Políticas de acesso aos arquivos.
+- Validação no servidor.
+- Proteção de variáveis secretas.
+- Limites de upload.
+- Registro de ações administrativas.
+- Tratamento de erros.
+
+Não exponha a chave secreta do Supabase no navegador. Não permita que um usuário altere seu próprio papel para administrador.
+
+PRIMEIRA ENTREGA OBRIGATÓRIA
+
+Antes de desenvolver todos os módulos:
+
+1. Inspecione o ambiente de desenvolvimento disponível.
+2. Apresente a árvore de arquivos proposta.
+3. Crie a estrutura inicial do projeto.
+4. Desenvolva o sistema visual e a navegação.
+5. Crie componentes reutilizáveis para cards, busca, cabeçalho, rodapé e estados da interface.
+6. Prepare o esquema inicial do banco de dados e as migrações.
+7. Crie um arquivo de configuração de ambiente de exemplo, sem segredos reais.
+8. Documente a instalação e a execução.
+9. Execute verificações e testes quando o ambiente permitir.
+
+A primeira versão deve funcionar em modo de desenvolvimento, com dados demonstrativos identificados claramente quando as integrações ainda não estiverem configuradas.
+
+Não simule autenticação, upload ou publicação como se fossem reais.
+
+FORMATO DA RESPOSTA
+
+Ao terminar, informe:
+
+- O que foi implementado.
+- Os arquivos criados.
+- Os comandos para instalar e executar.
+- As configurações externas necessárias.
+- Os testes executados e seus resultados.
+- As funcionalidades que ainda não estão conectadas.
+- Os próximos passos, em ordem de prioridade.
+
+Se o ambiente não permitir criar arquivos diretamente, entregue os arquivos completos e organizados por caminho, com instruções precisas para montá-los.
+
+Não declare a aplicação pronta para produção sem testes de segurança, integração, persistência e funcionamento.
+
+Comece agora pela estrutura executável e pela primeira interface responsiva da plataforma.

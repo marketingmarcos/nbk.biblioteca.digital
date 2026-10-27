@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Nebbook",
+      "hasCanvas": false,
+      "bodyTextLen": 1285,
+      "bodyTextHash": "c7d2553ff9c06618d1fe96b5141476448795038041e67884845715103f9ec9ca",
+      "bodyTextPrefix": "Ir ao conteúdo Nebbook Catálogo Autores Enviar obra Entrar Bibli",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/preview-prod.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Nebbook",
+      "hasCanvas": false,
+      "bodyTextLen": 1254,
+      "bodyTextHash": "a33cce2d86f6b16f5ca7604aff45aab5bcc75ab39d89680c5d0b82f9d2dac8b2",
+      "bodyTextPrefix": "Ir ao conteúdo Nebbook Menu Biblioteca gratuita Cada livro é um ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/preview-prod-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/preview-prod.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

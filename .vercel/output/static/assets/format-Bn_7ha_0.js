@@ -1,0 +1,1 @@
+function e(e){if(!e)return`—`;let t=new Date(e);return Number.isNaN(t.getTime())?`—`:new Intl.DateTimeFormat(`pt-BR`,{dateStyle:`medium`}).format(t)}function t(e){return e<1024?`${e} B`:e<1048576?`${Math.round(e/1024)} KB`:`${(e/1048576).toFixed(1)} MB`}function n(e){return e.length<12?e:`${e.slice(0,8)}…${e.slice(-6)}`}export{e as n,n as r,t};

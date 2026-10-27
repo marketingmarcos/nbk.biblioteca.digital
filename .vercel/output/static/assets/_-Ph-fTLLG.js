@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-NZYk81nU.js";import{t}from"./app-frame-CWHvzhkJ.js";import{i as n}from"./states-TQ_Bqtdc.js";var r=e(),i=()=>(0,r.jsx)(t,{children:(0,r.jsx)(`main`,{className:`mx-auto max-w-3xl px-4 py-16`,children:(0,r.jsx)(n,{})})});export{i as component};

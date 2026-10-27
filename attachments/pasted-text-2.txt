@@ -1,0 +1,23 @@
+Atualização oficial do projeto: o nome definitivo da plataforma de leitura digital é NEBBOOK.
+
+Substitua todas as referências provisórias a “Projeto Órbita”, “NEBULIVRO” ou outros nomes temporários por “Nebbook” em toda a aplicação, documentação, identidade visual, componentes, textos, configurações e prompts de desenvolvimento.
+
+A marca Nebbook deverá utilizar uma identidade visual jovem, moderna e futurista, inspirada na galáxia, com fundo azul-marinho quase preto, detalhes em violeta e ciano, tipografia contemporânea e um símbolo que combine livro, órbita e universo.
+
+Conceito da marca: uma biblioteca digital gratuita onde cada livro representa um novo universo a explorar.
+
+Preserve os requisitos já definidos:
+
+- Leitura gratuita.
+- Suporte a PDF e EPUB.
+- Leitura online e downloads autorizados.
+- Cadastro e submissão de obras por autores.
+- Aprovação editorial obrigatória antes da publicação.
+- Painel administrativo seguro.
+- Banco de dados e armazenamento persistentes.
+- Interface responsiva para celulares e computadores.
+- Infraestrutura de baixo custo, com possibilidade de expansão.
+
+Use “Nebbook” como nome oficial em todas as novas implementações. Não altere a arquitetura funcional já aprovada sem justificativa técnica.
+
+Antes de registrar domínio ou finalizar a marca comercial, verifique a disponibilidade do nome e possíveis conflitos de marca.
